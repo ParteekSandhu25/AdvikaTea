@@ -103,7 +103,7 @@ const HeroSection = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <div className="flex flex-wrap gap-x-4 gap-y-6 md:gap-y-8">
+          <div className="flex flex-wrap mx-auto gap-x-4 gap-y-6 md:gap-y-8">
             {teas.map((tea, index) => (
               <div key={index} className="ml-1">
                 <div className="w-[20rem]">
