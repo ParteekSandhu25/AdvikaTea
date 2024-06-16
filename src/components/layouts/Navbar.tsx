@@ -102,14 +102,17 @@ const Navbar = () => {
   return (
     <div className="w-full nav-shadow ">
       <nav className="relative w-8/12 mx-auto flex items-center justify-center  py-5 md:justify-between">
-        <Image
+        {/* <Image
           src="/TeaCollection/logo-img.jpg"
           height={20}
           width={150}
           alt="logo"
-        />
+        /> */}
+        <h1 className="font-bold text-2xl md:text-3xl hover:underline duration-300 transition-all underline-offset-4 cursor-pointer">
+          Advika Tea
+        </h1>
         <Button
-          className="absolute left-10 md:hidden"
+          className="absolute left-0 md:hidden"
           variant={"ghost"}
           size={"icon"}
         >
